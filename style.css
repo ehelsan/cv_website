@@ -1,0 +1,101 @@
+.navbar {
+    background-color: white;
+}
+
+.navbar li a{
+    margin: 0 15px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: black;
+    display: block;
+}
+
+.navbar li a:hover{
+    color: darkgreen;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: bold
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen;
+}
+
+#head_jumbotron img{
+    height: 200px;
+    width: auto;
+}
+
+
+#head_jumbotron h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    color: rgb(5, 61, 30);
+}
+
+#head_jumbotron h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+}
+
+.jumbotron-fluid {
+    background-color:rgb(218, 230, 216)
+}
+
+#awsimage{
+    text-align: center;
+}
+#aboutme{
+    color: rgb(3, 59, 28);
+    font-family:  Sans, sans-serif;
+}
+
+/* Float columns side by side */
+.card {
+    float: left;
+    width: auto;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.card-deck {margin: 0 +20px;}
+
+
+/* Clear floats after the columns */
+.card-deck:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
+#aboutme h3 {
+    text-decoration: underline green;
+    color: black;
+}
+
+#projects h3 {
+    text-decoration: underline green;
+}
+
+#skills h3 {
+    text-decoration: underline green;
+}
+
+#skills img{
+    max-height: 77px;
+    max-width: 11%;
+}
+
