@@ -99,3 +99,9 @@
     max-width: 11%;
 }
 
+.btn-primary{
+    color:white;
+    background: darkgreen;
+    border-color: rgb(51, 194, 111);
+}
+
