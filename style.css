@@ -26,6 +26,7 @@
 
 #head_jumbotron img{
     height: 200px;
+    margin-bottom: 60px;
     width: auto;
 }
 
@@ -35,12 +36,15 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
     color: rgb(5, 61, 30);
+
 }
 
 #head_jumbotron h3{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+   
 }
 
 .jumbotron-fluid {
@@ -103,5 +107,11 @@
     color:white;
     background: darkgreen;
     border-color: rgb(51, 194, 111);
+    
 }
 
+#buttones{
+    text-align: center;
+    margin-bottom: -110px;
+
+}
